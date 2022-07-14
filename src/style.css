@@ -1,0 +1,125 @@
+body {
+  font-family: Google Sans, arial, sans-serif;
+}
+
+h1 {
+  color: rgb(202, 57, 31);
+  font-size: 35px;
+  font-family: "Quicksand", sans-serif;
+  line-height: 28px;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(142, 190, 221);
+}
+
+.overview {
+  margin-bottom: 25px;
+}
+.weather-temperature img {
+  margin-bottom: 24px;
+  margin-right: 5px;
+  height: 75px;
+  width: 75px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-family: "Quicksand", sans-serif;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(78, 14, 46);
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+}
+
+#gitlink {
+  text-decoration: none;
+}
+#city-input {
+  border-radius: 10px;
+}
+
+.btn {
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(214, 67, 56);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn:hover {
+  background: rgb(57, 57, 153);
+  transition: all 0.5s ease-in-out;
+}
+
+.weather-search {
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 2px;
+  width: fit-content;
+}
+
+.weather-measure {
+  text-align: center;
+}
